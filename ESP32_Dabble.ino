@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(115200); 
   
   // Initialize Dabble Bluetooth with your desired device name
-  Dabble.begin("ESP32_Dabble"); 
+  Dabble.begin("ESP32_Dabble_Rhea"); 
   
   Serial.println("Bluetooth is ready. Connect using Dabble app.");
 }
